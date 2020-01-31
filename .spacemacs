@@ -44,7 +44,7 @@ This function should only modify configuration layer settings."
      auto-completion
      semantic
      cscope
-     c-c++
+     (c-c++ :variables c-c++-backend 'rtags)
      (cmake :variables cmake-enable-cmake-ide-support t)
      ;; better-defaults
      emacs-lisp

@@ -43,9 +43,9 @@ This function should only modify configuration layer settings."
      helm
      auto-completion
      semantic
-     cscope
-     (c-c++ :variables c-c++-backend 'rtags)
-     (cmake :variables cmake-enable-cmake-ide-support t)
+     ;; cscope
+     (c-c++ :variables c-c++-backend 'lsp-clangd)
+     ;; (cmake :variables cmake-enable-cmake-ide-support t)
      ;; better-defaults
      emacs-lisp
      git
